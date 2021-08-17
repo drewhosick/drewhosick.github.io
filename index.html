@@ -7,17 +7,25 @@
     <!-- top: 0px;
     left: 0px;
     flex-wrap: wrap; -->
-    list-style: none;
     text-align: center;
     justify-content: flex-end;
+    height: auto;
   }
   .menuItem {
     font-size: 20px;
     font-style: Helvetica;
     display: block;
     padding: 10px;
-    height: auto;
+    height: 25px;
     width: 130px;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
   .menuItem:hover {
     font-size: 22px;
@@ -27,14 +35,14 @@
   .mainContent {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 10%;
-    padding-top: 5%;
+    margin-top:100px;
+    padding-left: 100px;
   }
   .photoOfMe {
-    border-radius: 20%;
+    border-radius: 25%;
     border-style: solid;
     border-color: green;
-    max-width: 300px;
+    max-width: 500px;
     height: auto;
     
   }
@@ -42,10 +50,10 @@
 </head>
 <header>
 <ul class="navbar">
-  <li class="menuItem">About Me</li>
-  <li class="menuItem">Projects</li>
-  <li class="menuItem">Photography</li>
-  <li class="menuItem">Reach Out</li>
+  <li><a href="aboutme.html" class="menuItem">About Me</a></li>
+  <li><a href="projects.html" class="menuItem">Projects</a></li>
+  <li><a href="photography.html" class="menuItem">Photography</a></li>
+  <li><a href="reachout.html" class="menuItem">Reach Out</a></li>
 </ul>
 </header>
 <body>
