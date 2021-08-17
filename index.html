@@ -4,25 +4,39 @@
 <style>
   .navbar {
     display: flex;
-    top: 0px;
+    <!-- top: 0px;
     left: 0px;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    flex-wrap: wrap; -->
     list-style: none;
     text-align: center;
-    <!-- flex-gap: 50px; -->
+    justify-content: flex-end;
   }
   .menuItem {
-  font-size: 20px;
-  font-style: Helvetica;
-  display: block;
-  padding: 10px;
-  height: auto;
-  width: auto;
+    font-size: 20px;
+    font-style: Helvetica;
+    display: block;
+    padding: 10px;
+    height: auto;
+    width: 130px;
   }
   .menuItem:hover {
-    font-weight: bold;
-    padding:0px;
+    font-size: 22px;
+    font-weight: bold;   
+  }
+
+  .mainContent {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-top: 5%;
+  }
+  .photoOfMe {
+    border-radius: 20%;
+    border-style: solid;
+    border-color: green;
+    max-width: 300px;
+    height: auto;
+    
   }
 </style>
 </head>
@@ -31,10 +45,13 @@
   <li class="menuItem">About Me</li>
   <li class="menuItem">Projects</li>
   <li class="menuItem">Photography</li>
-  <li class="menuItem" margin-right="25px">Reach Out</li>
+  <li class="menuItem">Reach Out</li>
 </ul>
 </header>
 <body>
-
+<div class="mainContent">
+  <img class="photoOfMe" src="drewbio.jpg" alt="My picture">
+</div>
+</div>
 </body>
 </html>
