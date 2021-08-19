@@ -2,14 +2,31 @@
 <html>
 <head>
 <style>
-  .navbar {
+.container {
+  display:flex;
+  max-width: 100%;
+  background-color: blue;  
+}
+.titlebar {
+  display: flex;
+  position:static;
+  justify-content: flex-start;
+  height:auto;
+  width: 250px;
+  background-color: blue;
+}
+.navbar {
     display: flex;
-    <!-- top: 0px;
-    left: 0px;
-    flex-wrap: wrap; -->
-    text-align: center;
+    position: relative;
     justify-content: flex-end;
     height: auto;
+    background-color: green;
+    margin-left: auto;
+  }
+  .nameTitle {
+    font-size: 25px;
+    text-align: center;
+    
   }
   .menuItem {
     font-size: 20px;
@@ -35,7 +52,7 @@
   .mainContent {
     display: flex;
     flex-wrap: wrap;
-    margin-top:100px;
+    margin-top: 100px;
     padding-left: 100px;
   }
   .photoOfMe {
@@ -49,12 +66,18 @@
 </style>
 </head>
 <header>
+<div class="container">
+<div class="titlebar">
+  <h3 class="nameTitle">Drew Hosick</h3>
+</div>
+<div>
 <ul class="navbar">
   <li><a href="aboutme.html" class="menuItem">About Me</a></li>
   <li><a href="projects.html" class="menuItem">Projects</a></li>
   <li><a href="photography.html" class="menuItem">Photography</a></li>
   <li><a href="reachout.html" class="menuItem">Reach Out</a></li>
 </ul>
+</div>
 </header>
 <body>
 <div class="mainContent">
