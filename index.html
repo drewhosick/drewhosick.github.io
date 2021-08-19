@@ -2,40 +2,38 @@
 <html>
 <head>
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
 .container {
   display:flex;
   max-width: 100%;
-  background-color: blue;  
 }
-.titlebar {
-  display: flex;
-  position:static;
-  justify-content: flex-start;
-  height:auto;
-  width: 250px;
-  background-color: blue;
-}
-.navbar {
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
-    height: auto;
-    background-color: green;
-    margin-left: auto;
+  .titlebar {
+    display:flex;
+    margin-right: auto;
   }
-  .nameTitle {
-    font-size: 25px;
-    text-align: center;
-    
+    .nameTitle {
+      font-family: 'Style Script', cursive;
+      font-size: 120px;
+      color: grey;
+      text-shadow: 5px 5px 5px lightgray;
+      margin-top: 0px;
+      margin-bottom:0px;
+      padding-left: 50px;
+    }
+  .navbar {
+    display:flex;
+    margin-left: auto;
+    height:auto;
   }
   .menuItem {
     font-size: 20px;
     font-style: Helvetica;
-    display: block;
-    padding: 10px;
-    height: 25px;
-    width: 130px;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   li {
     list-style: none;
@@ -68,21 +66,19 @@
 <header>
 <div class="container">
 <div class="titlebar">
-  <h3 class="nameTitle">Drew Hosick</h3>
+  <p class="nameTitle">Drew Hosick</p>
 </div>
-<div>
-<ul class="navbar">
-  <li><a href="aboutme.html" class="menuItem">About Me</a></li>
-  <li><a href="projects.html" class="menuItem">Projects</a></li>
-  <li><a href="photography.html" class="menuItem">Photography</a></li>
-  <li><a href="reachout.html" class="menuItem">Reach Out</a></li>
-</ul>
+<div class="navbar">
+<a href="aboutme.html" class="menuItem">About Me</a>
+<a href="projects.html" class="menuItem">Projects</a>
+<a href="photography.html" class="menuItem">Photography</a>
+<a href="reachout.html" class="menuItem">Reach Out</a>
+</div>
 </div>
 </header>
 <body>
 <div class="mainContent">
   <img class="photoOfMe" src="drewbio.jpg" alt="My picture">
-</div>
 </div>
 </body>
 </html>
