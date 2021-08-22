@@ -21,7 +21,7 @@ nav a {
     margin-right: 25px;
 }
 
-body > h1 {
+#cssword {
     position: relative;
     font-size: 70px;
     left: 30vw;
@@ -30,7 +30,7 @@ body > h1 {
     width: fit-content;
 }
 
-body > h2 {
+#htmlword {
     position: relative;
     font-size: 45px;
     left: 73vw;
@@ -40,7 +40,7 @@ body > h2 {
     width: fit-content;
 }
 
-body > h3 {
+#jsword {
     position: relative;
     font-size: 50px;
     top:-30px;
@@ -49,7 +49,7 @@ body > h3 {
     color: rgb(120, 120, 120);
     width: fit-content;
 }
-body > h4 {
+#webword {
     position: relative;
     font-size: 45px;
     top: -20px;
@@ -58,7 +58,7 @@ body > h4 {
     color: rgb(190, 190, 190);
     width: fit-content;
 }
-body > h5 {
+#responsiveword {
     position: relative;
     font-size: 35px;
     top: -110px;
@@ -68,7 +68,7 @@ body > h5 {
     width: fit-content;
 }
 
-body > img {
+img {
     display: block;
     border-radius: 15px;
     align-self: center;
