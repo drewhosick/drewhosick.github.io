@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Courier New', Courier, monospace;
 }
 nav {
     display:flex;
@@ -10,19 +11,68 @@ nav {
     padding-inline: 50px;
 }
 
-nav h1 {
+nav > div > h1 {
     font-size: 50px;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: 200;
 }
 
 nav a {
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
     margin-right: 25px;
-    
 }
 
-body img {
-    max-width: 500px;
+body > h1 {
+    position: relative;
+    font-size: 70px;
+    left: 30vw;
+    font-weight: 200;
+    color: rgb(150,150,150);
+    width: fit-content;
+}
+
+body > h2 {
+    position: relative;
+    font-size: 45px;
+    left: 73vw;
+    top:-120px;
+    color: rgb(160, 160, 160);
+    font-weight: 200;
+    width: fit-content;
+}
+
+body > h3 {
+    position: relative;
+    font-size: 50px;
+    top:-30px;
+    left: 57vw;
+    font-weight: 250;
+    color: rgb(120, 120, 120);
+    width: fit-content;
+}
+body > h4 {
+    position: relative;
+    font-size: 45px;
+    top: -20px;
+    left: 44vw;
+    font-weight: 400;
+    color: rgb(190, 190, 190);
+    width: fit-content;
+}
+body > h5 {
+    position: relative;
+    font-size: 35px;
+    top: -110px;
+    left: 18vw;
+    font-weight: 500;
+    color: rgb(130, 130, 130);
+    width: fit-content;
+}
+
+body > img {
+    display: block;
+    border-radius: 15px;
+    align-self: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
