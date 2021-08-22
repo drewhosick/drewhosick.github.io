@@ -1,103 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
-
-.container {
-  display:flex;
-  max-width: 100%;
-}
-  .titlebar {
-    display:flex;
-    margin-right: auto;
-  }
-    .nameTitle {
-      font-family: 'Style Script', cursive;
-      font-size: 60px;
-      color: grey;
-      text-shadow: 5px 5px 5px lightgray;
-      margin-top: 0px;
-      margin-bottom:0px;
-      padding-left: 50px;
-      padding-right: 50px;
-    }
-  .navbar {
-    display:flex;
-    margin-left: auto;
-    height:auto;
-    align-items: center;
-  }
-  .menuItem {
-    font-size: 20px;
-    font-style: Helvetica;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-  li {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  .menuItem:hover {
-    font-size: 22px;
-    font-weight: bold;   
-  }
-
-  .mainContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-  }
-  .photoOfMe {
-    position:relative;
-    border-radius: 50%;
-    border-style: solid;
-    border-color: white;
-    border-width: 10px;
-    max-width: 500px;
-    height: auto;
-    z-index: 2;
-    
-  }
-  .aboutMeInfo {
-    background-color:blue;
-    width: 100%;
-    height: 50%;
-    z-index: 0;
-  }
-  .stripeTop {
-    background-color:blue;
-    width: 100%
-    height:30px;
-    z-index: 0;
-  }
-  .stripeMiddle {
-    background-color:white;
-    width: 100%
-    height: 10px;
-    z-index: 0;
-  }
-  .stripeBottom {
-    background-color:blue;
-    width: 100%
-    height:30px;
-    z-index: 0;
-  }
-  }
-</style>
+<<link rel="stylesheet" href="stylesheet.css">
 </head>
 <header>
 <div class="container">
-<div class="titlebar">
-  <p class="nameTitle">Drew Hosick</p>
-</div>
+<p class="nameTitle">Drew Hosick</p>
 <div class="navbar">
 <a href="aboutme.html" class="menuItem">About Me</a>
 <a href="projects.html" class="menuItem">Projects</a>
@@ -108,26 +16,7 @@
 </div>
 </header>
 <body>
-<div class="mainContent">
-  <div class="aboutMeInfo"><p>testing</p>
-  <p>It's a beautiful day</p>
-  <p>Everything's Going My Way</p>
-  <p>I'll be alright</p>
-  <P>I know I will</P>
-  <p>It's a good day today</p>
-  <p>Just tell me how you are</p>
-  <p>Tell me what makes you tick</p>
-  <p>Tell me you'll be alright too</p>
-</div>
-</div>
-<div class="stripeTop"><p>1</p>
-</div>
-<div class="stipeMiddle"><p>1
-</p>
-</div>
-<div class="stripeBottom"><p>1</p>
-</div>
-  <img class="photoOfMe" src="drewbio.jpg" alt="My picture">
+<img src="drewbio.jpg" alt="My picture">
 </div>
 </body>
 </html>
