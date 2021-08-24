@@ -8,10 +8,6 @@
     color: white;
     background-color: black;
 }
-
-#test {
-    position:fixed;
-}
 nav {
     display:flex;
     justify-content: space-between;
@@ -41,10 +37,16 @@ nav div a:hover {
     top:-3px;
 }
 
+/* #spacer {
+    max-width: 100vw;
+    width:1000px;
+    height:80px;
+} */
 #cssword {
-    position: relative;
-    font-size: 65px;
+    position: absolute;
+    font-size: 5vw;
     left: 30vw;
+    top:120px;
     font-weight: 200;
     color: rgb(150,150,150);
     width: fit-content;
@@ -52,10 +54,10 @@ nav div a:hover {
 }
 
 #htmlword {
-    position: relative;
-    font-size: 40px;
-    left: 73vw;
-    top:-120px;
+    position: absolute;
+    font-size: 3vw;
+    left: 71vw;
+    top:140px;
     color: rgb(160, 160, 160);
     font-weight: 200;
     width: fit-content;
@@ -63,34 +65,54 @@ nav div a:hover {
 }
 
 #jsword {
-    position: relative;
-    font-size: 45px;
-    top:-30px;
+    position: absolute;
+    font-size: 2.5vw;
     left: 57vw;
+    top:300px;
     font-weight: 250;
     color: rgb(120, 120, 120);
     width: fit-content;
     transform: rotate(-18deg);
 }
 #webword {
-    position: relative;
-    font-size: 40px;
-    top: -20px;
+    position: absolute;
+    font-size: 3vw;
     left: 44vw;
+    top:210px;
     font-weight: 400;
     color: rgb(190, 190, 190);
     width: fit-content;
     transform: rotate(-5deg);
 }
 #responsiveword {
-    position: relative;
-    font-size: 30px;
-    top: -110px;
-    left: 18vw;
+    position: absolute;
+    font-size: 2vw;
+    left: 20vw;
+    top:310px;
     font-weight: 500;
     color: rgb(130, 130, 130);
     width: fit-content;
     transform: rotate(15deg);
+}
+
+#welcome {
+    position:relative;
+    margin-top:350px;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#aboutme {
+    position: relative;
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 25px;
+    font-weight: 100;
+    text-align:center;
+    margin-left: 20%;
+    margin-right:20%;
+
 }
 
 img {
@@ -100,31 +122,12 @@ img {
     max-width: 300px;
     margin-left: auto;
     margin-right: auto;
-    top:100px;
-}
-
-#welcome {
-    position:relative;
-    top:40px;
-    font-size: 80px;
-    font-weight: 100;
-    text-align: center;
-}
-
-#aboutme {
-    position: relative;
-    top: 70px;
-    font-size: 25px;
-    font-weight: 100;
-    text-align:center;
-    margin-left: 20%;
-    margin-right:20%;
-
+    margin-bottom: 20px;
 }
 
 #resume {
-    top: 10px;
     text-align:center;
+    margin-bottom: 20px;
     }
 
 #resume a {
@@ -151,23 +154,7 @@ footer {
     nav div h1 {
         font-size: 50px;
     }
-    #cssword {
-        font-size: 2em;
-    }
-    #htmlword {
-        font-size: 1.8em;
-        top:-110px;
-    }
-    #webword {
-        font-size: 1.5em;
-    }
-    #responsiveword {
-        font-size: 1em;
-        top:-60px;
-    }
-    #jsword {
-        font-size: 2em;
-    }
+
     #welcome {
         font-size: 40px;
     }
@@ -190,15 +177,6 @@ footer {
     }
 }
 
-@media screen and (max-width: 1100px) {
-    nav div h1 {
-        font-size: 30px;
-    }
-    nav div a {
-        font-size:20px;
-    }
-}
-
 @media screen and (max-width: 800px) {
     #welcome {
         font-size: 30px;
@@ -217,5 +195,40 @@ footer {
     }
     footer {
         font-size: 12px;
+    }
+    #cssword {
+        font-size:7vw;
+        left:15vw;
+    }
+    #htmlword {
+        font-size: 6vw;
+    }
+    #webword {
+        font-size: 5vw;
+        left:35vw;
+    }
+    #responsiveword {
+        font-size: 3vw;
+        left:10vw;
+    }
+    #jsword {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #navigation a {
+        font-size: 3.5vw;
+    }
+    #navigation {
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    #title h1 {
+        font-size: 8vw;
+    }
+    #title {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
