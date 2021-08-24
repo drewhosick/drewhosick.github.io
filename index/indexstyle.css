@@ -31,7 +31,7 @@ nav div h1 {
 nav div a {
     display: inline-block;
     position:relative;
-    font-size: 21px;
+    font-size: 30px;
     text-decoration: none;
     margin-right: 25px;
 }
@@ -193,7 +193,7 @@ footer {
         font-size: 30px;
     }
     nav div a {
-        font-size:20px;
+        font-size:25px;
     }
 }
 
