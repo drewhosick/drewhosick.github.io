@@ -156,7 +156,7 @@ footer {
     }
 
     #welcome {
-        font-size: 40px;
+        font-size: 35px;
     }
     #aboutme {
         font-size: 18px;
@@ -176,6 +176,45 @@ footer {
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+#cssword {
+    font-size: 5vw;
+    left: 15vw;
+    top: 190px;
+}
+#htmlword {
+    font-size: 4vw;
+    top:210px;
+}
+#webword {
+    font-size: 3vw;
+    left:35vw;
+    top:280px;
+}
+#responsiveword {
+    font-size: 2vw;
+    left:10vw;
+    top: 380px;
+}
+#jsword {
+    font-size: 4vw;
+    top:370px;
+}
+#navigation a {
+    font-size: 3.5vw;
+}
+#navigation {
+    margin-left: auto;
+    margin-right: auto;  
+}
+#title h1 {
+    font-size: 8vw;
+}
+#title {
+    margin-left: auto;
+    margin-right: auto;
+}  
 
 @media screen and (max-width: 800px) {
     #welcome {
@@ -197,38 +236,28 @@ footer {
         font-size: 12px;
     }
     #cssword {
-        font-size:7vw;
-        left:15vw;
+        font-size: 6vw;
+        left: 15vw;
+        top: 110px;
     }
     #htmlword {
-        font-size: 6vw;
+        font-size: 5vw;
+        top:130px;
     }
     #webword {
-        font-size: 5vw;
+        font-size: 4vw;
         left:35vw;
+        top:200px;
     }
     #responsiveword {
         font-size: 3vw;
         left:10vw;
+        top: 300px;
     }
     #jsword {
-        font-size: 4.5vw;
+        font-size: 5vw;
+        top:290px;
     }
-}
-
-@media screen and (max-width: 600px) {
-    #navigation a {
-        font-size: 3.5vw;
-    }
-    #navigation {
-        margin-left: auto;
-        margin-right: auto;  
-    }
-    #title h1 {
-        font-size: 8vw;
-    }
-    #title {
-        margin-left: auto;
-        margin-right: auto;
-    }
+    #welcome {
+        margin-top:300px;
 }
