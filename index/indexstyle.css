@@ -173,6 +173,8 @@ footer {
     }
     #aboutme {
         font-size: 18px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     div img {
         max-width: 180px;
