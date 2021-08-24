@@ -29,7 +29,8 @@ nav div a {
     position:relative;
     font-size: 25px;
     text-decoration: none;
-    margin-right: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav div a:hover {
@@ -37,11 +38,6 @@ nav div a:hover {
     top:-3px;
 }
 
-/* #spacer {
-    max-width: 100vw;
-    width:1000px;
-    height:80px;
-} */
 #cssword {
     position: absolute;
     font-size: 5vw;
@@ -150,7 +146,7 @@ footer {
 }
 
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1500px) {
     nav div h1 {
         font-size: 50px;
     }
@@ -209,8 +205,6 @@ nav {
 #navigation a {
     font-size: 3vw;
     text-align: center;
-    margin-right: 25px;
-    margin-left: 25px;
 }
 #navigation {
     display: flex;
