@@ -208,7 +208,8 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
+    width:fit-content;
 }
 #title h1 {
     font-size: 8vw;
