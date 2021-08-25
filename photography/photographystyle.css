@@ -73,6 +73,11 @@ img {
     margin:auto;
 }
 
+img:hover {
+    position:relative;
+    top:-2px;
+}
+
 @media screen and (max-width: 1900px) {
     img {
         max-width: 400px;
