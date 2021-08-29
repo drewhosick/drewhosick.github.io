@@ -269,3 +269,58 @@ nav {
         margin-top:300px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    #cssword {
+        font-size: 6vw;
+        left: 15vw;
+        top: 100px;
+    }
+    #htmlword {
+        font-size: 5vw;
+        top:120px;
+    }
+    #webword {
+        font-size: 4vw;
+        left:35vw;
+        top:190px;
+    }
+    #responsiveword {
+        font-size: 3vw;
+        left:10vw;
+        top: 290px;
+    }
+    #jsword {
+        font-size: 5vw;
+        top:280px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #cssword {
+        font-size: 6vw;
+        left: 15vw;
+        top: 70px;
+    }
+    #htmlword {
+        font-size: 5vw;
+        top:90px;
+    }
+    #webword {
+        font-size: 4vw;
+        left:35vw;
+        top:140px;
+    }
+    #responsiveword {
+        font-size: 3vw;
+        left:10vw;
+        top: 200px;
+    }
+    #jsword {
+        font-size: 5vw;
+        top:190px;
+    }
+    #welcome {
+        margin-top: 200px;
+    }
+}
