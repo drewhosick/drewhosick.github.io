@@ -45,7 +45,7 @@ nav div a:hover {
 
 body p {
     position: relative;
-    padding-top:50px;
+    padding-top: 50px;
     font-size: 20px;
     margin-left: 20%;
     margin-right: 20%;
@@ -143,5 +143,8 @@ footer p {
     font-size: 15px;
     margin-left: 5%;
     margin-right: 5%;
+    }
+    footer p {
+        font-size: 10px;
     }
 }
