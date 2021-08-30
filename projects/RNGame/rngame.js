@@ -15,7 +15,7 @@ function check()
     let guess = Number(inputGuess.value);
     guessDisplay.innerText = guess;
     
-    if (chosenNumber == guess) {
+    if (chosenNumber == guess && guesses != 0) {
         theResult.innerText = "That was right.  It was " + guess + ".  You had " + guesses + " guesses left.";
     } else if (chosenNumber < guess && guesses > 0) {
         theResult.innerText = "Too high. You have " + guesses + " guesses left.  Try again.";
