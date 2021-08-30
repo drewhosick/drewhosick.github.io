@@ -6,9 +6,11 @@ const reset = document.querySelector('#reset');
 
 let chosenNumber = Math.round(Math.random() * 100);
 
+myBtn.addEventListener("click", check);
+// reset.addEventListener("click", resetPage);
+
 function check()
 {
-    check.preventDefault();
     let guess = Number(inputGuess.value);
     guessDisplay.innerText = guess;
     
@@ -19,14 +21,16 @@ function check()
     } else {
         theResult.innerText = "Too low. Try again.";
     }
+    return false;
 }
 
-function reset {
-    let chosenNumber = Math.round(Math.random() * 100);
-    theResult.innerHTML = 'Game reset.  New number chosen';
-    theResult.innerHTML = '';
-}
+// function resetPage() {
 
-myBtn.addEventListener("click", check);
-reset.addEventListener("click", reset);
+//     let chosenNumber = Math.round(Math.random() * 100);
+//     theResult.innerText = 'Game reset.  New number chosen';
+//     theDisplay.innerText = '';
+//     return false;
+// }
+
+
 
