@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Random Number Game Generator</Title>
+<link rel="stylesheet" href="gamestyle.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Guess the Number Game</h1>
+    </header>
+    <main>
+        <p>Take a guess at a randomly chosen number between 1 and 100 in the 
+            box below and then hit check to see if you are right.</p>
+            <br>
+        <p>Your last guess</p>
+        <p class="theGuess"></p>
+        <p class="result"></p>
+        <br>
+        <br>
+        <br>
+        <form>
+        <label>Guess:</label><input type="text" class="inputGuess"> <br>
+        <button onclick="check()" id="myBtn">Check</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>COPYRIGHT 2021 DREW HOSICK</p>
+    </footer>
+    <script></script>
+    <script src="rngame.js" type="text/javascript"></script>
+</body>
+
+</html>
