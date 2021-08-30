@@ -7,7 +7,7 @@ const reset = document.querySelector('#reset');
 let chosenNumber = Math.round(Math.random() * 100);
 
 myBtn.addEventListener("click", check);
-// reset.addEventListener("click", resetPage);
+reset.addEventListener("click", resetPage);
 
 function check()
 {
@@ -24,13 +24,13 @@ function check()
     return false;
 }
 
-// function resetPage() {
+function resetPage() {
 
-//     let chosenNumber = Math.round(Math.random() * 100);
-//     theResult.innerText = 'Game reset.  New number chosen';
-//     theDisplay.innerText = '';
-//     return false;
-// }
+    chosenNumber = Math.round(Math.random() * 100);
+    theResult.innerText = 'Game reset.  New number chosen';
+    theDisplay.innerText = '';
+    return false;
+}
 
 
 
