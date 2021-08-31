@@ -102,19 +102,16 @@ label {
 }
 
 #myBtn {
-    margin-top: 20px;
-    font-size: 20px;
-    border-radius: 15px;
-    padding:5px;
+    font-size: 25px;
+    border-radius: 12px;
+    
     background: #4D774E;
     ;
 }
 
 #reset {
-    margin-top: 10px;
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 12px;
-    padding:5px;
     background: #164A41;
 }
 
@@ -127,8 +124,20 @@ p {
     background-color: #F1B24A;
 }
 
-main > div  {
+main > div > div  {
     background-color: #F1B24A;
+    margin: 0px;
+}
+
+
+.holder {
+    background: #F1B24A;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 @media screen and (max-width: 700px) {
@@ -139,11 +148,14 @@ main > div  {
     #myBtn {
         font-size: 15px;
     }
+    #reset {
+        font-size: 15px;
+    }
     header {
-        width: 80%;
+        width: 60%;
     }
     h1 {
-        font-size: 22px;
+        font-size: 18px;
     }
 
 }
