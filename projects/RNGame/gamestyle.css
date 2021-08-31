@@ -27,9 +27,9 @@ body {
 
 #mainContainer {
     position:relative;
-
     max-width: 600px;
     width:85%;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -76,16 +76,18 @@ label {
 
 .theGuess {
     display: block;
-    font-size: 30px;
-    height: 30px;
+    font-size: 23px;
+    margin-top: 50px;
 }
 
 .result {
     display: block;
-    font-size: 30px;
-    height: 30px;
+    font-size: 18px;
+    margin-top: 100px;
 }
-
+label {
+    
+}
 .inputGuess {
     background-color: white;
     font-size: 20px;
@@ -93,6 +95,7 @@ label {
     height:25px;
     color: black;
     text-align: center;
+    margin-top: 80px;
 }
 
 #myBtn {
