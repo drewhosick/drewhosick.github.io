@@ -1,35 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
+/* Colour Palette reference
+
+Dark Green: #164A41
+
+Medium Green: #4D774E
+
+Light Green: #9DC88D
+
+Natural Yellow: #F1B24A
+
+White: #FFFFFF */
+
 *{
     margin:0;
     padding:0;
     font-family: 'Fira Code','Courier New', Courier, monospace;
     color: white;
-    background-color: black;
+    background-color: #164A41;
 }
 body {
     position:relative;
     text-align: center;
 }
 
+#mainContainer {
+    position:relative;
+
+    max-width: 600px;
+    width:85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-height: 600px;
+    background-color: #F1B24A;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px #9DC88D;
+    border: 10px solid #4D774E;
+}
+
+header {
+    background-color: #9DC88D;
+    border-radius: 30px;
+}
+h1 {
+    margin-top: 20px;
+    background-color: #9DC88D;
+    color: #4D774E;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 3px darkgray;
+}
+
 main {
     position:relative;
     display:block;
-    max-width: 500px;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    height: 400px;
-    max-height: 95%;
+    margin-top:20px;
+    background: #F1B24A;
+    
 }
 
 label {
     font-size: 20px;
-    color: black;
-    padding:2px;
-    border: 5px solid yellow;
-    background-color: white;
+    color: white;
+    padding:5px;
+    border: 1px solid #4D774E;
+    background-color: #9DC88D;
     border-radius: 12px;
     margin-right: 10px;
 }
@@ -59,14 +99,30 @@ label {
     margin-top: 30px;
     font-size: 30px;
     border-radius: 15px;
-    background: cornflowerblue;
+    padding:5px;
+    background: #4D774E;
+    ;
 }
 
 #reset {
     margin-top: 30px;
     font-size: 20px;
     border-radius: 12px;
-    background: cornflowerblue;
+    padding:5px;
+    background: #f9DC88D;
 }
+
+footer {
+    background-color: #F1B24A;
 }
+
+p {
+    background-color: #F1B24A;
+}
+
+main > div  {
+    background-color: #F1B24A;
+}
+
+
 
