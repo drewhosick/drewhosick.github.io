@@ -42,6 +42,9 @@ body {
 
 header {
     background-color: #9DC88D;
+    width: 58%;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 30px;
 }
 h1 {
@@ -50,6 +53,7 @@ h1 {
     color: #4D774E;
     border-radius: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
     text-shadow: 2px 2px 3px darkgray;
 }
 
@@ -131,14 +135,15 @@ main > div  {
     mainContainer {
         margin-top: 5px;
     }
-    #checkDiv {
-        float:left;
-    }
-    #resetDiv {
-        float:right;
-    }
+
     #myBtn {
         font-size: 15px;
+    }
+    header {
+        width: 80%;
+    }
+    h1 {
+        font-size: 22px;
     }
 
 }
