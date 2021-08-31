@@ -116,6 +116,7 @@ label {
 
 footer {
     background-color: #F1B24A;
+    margin-top: 5px;
 }
 
 p {
@@ -126,5 +127,20 @@ main > div  {
     background-color: #F1B24A;
 }
 
+@media screen and (max-width: 700px) {
+    mainContainer {
+        margin-top: 5px;
+    }
+    #checkDiv {
+        float:left;
+    }
+    #resetDiv {
+        float:right;
+    }
+    #myBtn {
+        font-size: 15px;
+    }
+
+}
 
 
