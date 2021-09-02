@@ -20,6 +20,7 @@ svg {
 #container {
     width: 100%;
 }
+
 nav {
     position: relative;
     display: flex;
