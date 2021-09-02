@@ -8,8 +8,7 @@
 *{
     margin:0;
     padding:0;
-    color: black;
-    
+    color: black; 
 }
 
 svg {
@@ -89,7 +88,7 @@ svg {
 #aboutme {
     position: relative;
     text-align: left;
-    font-family: 'Crimson Pro', serif;;
+    font-family: 'Crimson Pro', serif;
     width: 30%;
     font-size: 1.8vw;
     margin:auto;
