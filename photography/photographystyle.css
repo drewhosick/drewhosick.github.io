@@ -106,7 +106,7 @@ main > p {
     margin:auto;
 }
 
-img:hover {
+#photogalery > div > img:hover {
     position:relative;
     top:-2px;
 }
@@ -131,18 +131,20 @@ footer p {
 #closeBox {
     position: relative;
     text-align: right;
-    top: 5px;    
-    right: 5px;
+    top: 0px;    
+    right: 0px;
     color: white;
     font-size: 1.5vw;
+    z-index: 3;
 }
 
 #photoLightbox > img {
     display: block;
     position: relative;
-    width: 90vw;
-    max-height: 95%;
-    margin:auto;
+    max-width: 95vmax;
+    max-height: 45vmax;
+    margin: auto;
+    
 }
 
 
