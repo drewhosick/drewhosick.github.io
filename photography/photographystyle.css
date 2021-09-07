@@ -147,13 +147,13 @@ footer p {
 
 
 @media screen and (max-width: 1900px) {
-    #photogalery > img {
+    #photogalery > div > img {
         max-width: 400px;
     }
 }
 
 @media screen and (max-width: 1550px) {
-    #photogalery > img {
+    #photogalery > div > img {
         max-width: 300px;
     }
 
@@ -188,17 +188,17 @@ footer p {
         margin-left: auto;
         margin-right: auto;
     } 
-    #photogalery > img {
+    #photogalery > div > img {
         max-width: 250px;
     } 
 }
 @media screen and (max-width: 1050px) {
-    #photogalery > img {
+    #photogalery > div > img {
         max-width: 350px;
     } 
 }
 @media screen and (max-width: 900px) {
-    #photogalery > img {
+    #photogalery > div > img {
         max-width: 90%;
     } 
     main p {
