@@ -29,7 +29,7 @@ nav {
 }
 
 #title {
-    width: 50%;
+    width: 45%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -70,7 +70,7 @@ nav div a:hover {
 }
 
 main > p {
-    margin-top: 200px;
+    margin-top: 20vh;
     position: relative;
     padding-top: 70px;
     font-size: 1.5vw;
@@ -148,19 +148,22 @@ footer p {
 
 @media screen and (max-width: 1900px) {
     #photogalery > div > img {
-        max-width: 400px;
+        max-width: 350px;
     }
 }
 
 @media screen and (max-width: 1550px) {
     #photogalery > div > img {
-        max-width: 300px;
+        max-width: 275px;
     }
 
 @media screen and (max-width: 1500px) {
     nav div h1 {
         font-size: 45px;
     }
+}
+main > p {
+    margin-top: 15vh;
 }
 }
 
@@ -170,7 +173,7 @@ footer p {
     }
     
     #navigation a {
-        font-size: 3vw;
+        font-size: 2.5vw;
         text-align: center;
     }
     #navigation {
@@ -179,9 +182,10 @@ footer p {
         width:fit-content;
         margin-right: auto;
         margin-left: auto;
+        padding-right:0px;
     }
     #title h1 {
-        font-size: 8vw;
+        font-size: 2.5vw;
         text-align: center;
     }
     #title {
@@ -189,7 +193,7 @@ footer p {
         margin-right: auto;
     } 
     #photogalery > div > img {
-        max-width: 250px;
+        max-width: 300px;
     } 
 }
 @media screen and (max-width: 1050px) {
@@ -202,6 +206,8 @@ footer p {
         max-width: 90%;
     } 
     main p {
+    margin-top: 11vh;
+    text-align: center;
     font-size: 15px;
     margin-left: 5%;
     margin-right: 5%;
