@@ -11,19 +11,15 @@
     color: black;
 }
 
-svg {
-    position:absolute;
-    z-index: -1;
-    top:0px;
-}
-
 #container {
     width: 100%;
 }
 
 nav {
     position: relative;
+    background-color: #273036;
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;  
 }
@@ -32,33 +28,35 @@ nav {
     width: 45%;
     margin-left: auto;
     margin-right: auto;
+
 }
 #title h1 {
     position: relative;
     z-index: 1;
     font-family: 'Fredericka the Great', 'Fira Code', 'Courier New', Courier, monospace;
-    font-size: 4vw;
-    font-weight: 200;
-    padding-left: 3%;
+    font-size: 30px;
+    font-weight: 100;
+    /* padding-left: 3%; */
+    padding-bottom: 5px;
     color: #f3d9dc;  
+    
 }
 
 #navigation {
     position: relative;
     color: #d7bea8;
     z-index: 1;
-    width: 50%;
+    width: 45%;
     margin-left: auto;
     margin-right:auto;
     text-align: right;
-    padding-right: 40px;  
+    /* padding-right: 40px; */
 }
 nav div a {
     position: relative;
     color: #d7bea8;
-    font-size: 2vw;
+    font-size: 25px;
     text-decoration: none;
-    margin: 5px;
     padding: 2px;
     padding-left: 10px;
     padding-right: 10px; 
@@ -70,12 +68,12 @@ nav div a:hover {
 }
 
 main > p {
-    margin-top: 22vh;
+    margin-top: 50px;
     position: relative;
-    padding-top: 70px;
-    font-size: 1.5vw;
-    margin-left: 30%;
-    margin-right: 30%;
+    padding-top: 50px;
+    font-size: 22px;
+    margin-left: 20%;
+    margin-right: 20%;
     position: relative;
     font-family: 'Crimson Pro', serif;
     color: #273036;
@@ -131,18 +129,22 @@ footer p {
 #closeBox {
     position: relative;
     text-align: right;
-    top: 0px;    
-    right: 0px;
+    top: 2px;    
+    right: 5px;
     color: white;
     font-size: 1.5vw;
     z-index: 3;
 }
 
+#closeBox:hover {
+    text-shadow: 3px 3px 10px white;
+}
+
 #photoLightbox > img {
     display: block;
     position: relative;
-    max-width: 95vmax;
-    max-height: 45vmax;
+    max-width: 90vmax;
+    max-height: 40vmax;
     margin: auto;
     
 }
@@ -159,41 +161,7 @@ footer p {
         max-width: 275px;
     }
 
-@media screen and (max-width: 1500px) {
-    nav div h1 {
-        font-size: 45px;
-    }
-}
-main > p {
-    margin-top: 22vh;
-}
-}
-
 @media screen and (max-width: 1200px) {
-    nav {
-        display:block;
-    }
-    
-    #navigation a {
-        font-size: 1.8vw;
-        text-align: center;
-    }
-    #navigation {
-        display: flex;
-        justify-content: space-between;
-        width:fit-content;
-        margin-right: auto;
-        margin-left: auto;
-        padding-right:0px;
-    }
-    #title h1 {
-        font-size: 2.2vw;
-        text-align: center;
-    }
-    #title {
-        margin-left: auto;
-        margin-right: auto;
-    } 
     #photogalery > div > img {
         max-width: 300px;
     } 
@@ -207,14 +175,42 @@ main > p {
     #photogalery > div > img {
         max-width: 90%;
     } 
-    main p {
-    margin-top: 18vh;
-    text-align: center;
-    font-size: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
-    }
     footer p {
         font-size: 10px;
+    }
+    #navigation {
+        width: 100%;
+        justify-content:center;
+        flex-direction: column;
+        margin:auto;
+        padding:auto;
+        text-align: center;
+        padding-right: 0px;
+    }
+    #navigation > a {
+        padding: auto;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 30px;
+    }
+
+    #title {
+        width: 95%;
+    }
+    #title > h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #title > h1 {
+        font-size: 32px;
+    }
+    #navigation > a {
+        padding: auto;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 30px;
     }
 }
