@@ -1,137 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,300&display=swap');
 
-/* colour palette https://coolors.co/273036-c78283-f3d9dc-d7bea8-b49286 */
 
 *{
     margin:0;
     padding:0;
-    color: black; 
 }
 
-svg {
-    position:absolute;
-    z-index: 0;
-}
-
-#heading {
-    position: relative;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;  
-}
-
-#title {
-    width: 50%;
-    margin-left: auto;
-    margin-right:auto;
-    
-}
-#title > h1 {
-    
-    position: relative;
-    z-index: 1;
-    font-family: 'Fredericka the Great', 'Fira Code', 'Courier New', Courier, monospace;
-    font-size: 4vw;
-    font-weight: 200;
-    padding-left: 3%;
-    color: #f3d9dc;    
-}
-
-#navigation {
-    position: relative;
-    color: #d7bea8;
-    z-index: 1;
-    width: 50%;
-    margin-left: auto;
-    margin-right:auto;
-    text-align: right;
-    padding-right: 40px;  
-}
-
-#navigation > a {
-    position: relative;
-    color: #d7bea8;
-    font-size: 2vw;
-    text-decoration: none;
-    margin: 5px;
-    padding: 2px;
-    padding-left: 10px;
-    padding-right: 10px;    
-}
-
-#navigation > a:hover {
-    top:-2px;
-    text-shadow: 2px 2px 10px #f3d9dc;
-}
-
-#welcome {
-    position: relative;
-    text-align: right;
-    font-size: 5vw;
-    margin-top: 6vw;
-    margin-right: 24.5vw;
-    color: #273036;
-    font-family: font-family: 'Bitter', serif;
-}
-
-#content1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 3vw;
-    margin-left: 8%;
-    margin-right: 8%;
-}
-
-#aboutme {
-    position: relative;
-    text-align: left;
-    font-family: 'Crimson Pro', serif;
-    width: 30%;
-    font-size: 1.8vw;
-    margin:auto;
-    color: #273036;
-    padding: 20px;
-    background-color: #b49286;
-    border-radius: 2vw;
-    box-shadow: 5px 5px 10px #273036;
-}
-img {
-    position: relative;
-    width: 25%;
-    margin:auto;
-    border-radius: 50%;
-    box-shadow: 2px 2px 10px #273036;
-}
-
-footer {
-    font-size: 1.3vw;
+.container {
     text-align: center;
-    margin-top: 1.3vw;
+    margin: auto;
+    max-width: 450px;
 }
 
-#resume > a {
-    position: relative;
-    color: #273036;
+.navigation__menu {
     text-decoration: none;
-    text-shadow: 1px 1px 3px #b49286;
+    list-style: none;
 }
 
-#resume > a:hover {
-    top: -2px;
-    text-shadow: 3px 3px 10px #b49286;
-
+.article__myPicture {
+    width: 90%;
+    border-radius: 3rem;
 }
 
-footer p {
-    margin-top:5px;
-    color: #273036;
+h4 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.fab {
+    font-size: 8rem;
 }
 
-/* nav div h1 {
-    font-family: 'Fredericka the Great', 'Fira Code', 'Courier New', Courier, monospace;
-    font-size: 72px;
-    font-weight: 200;
-} */
+.fa-html5 {
+    color: dodgerblue;
+}
+
+.fa-css3-alt {
+    color: red;
+}
+
+.fa-js-square {
+    color: lawngreen;
+}
