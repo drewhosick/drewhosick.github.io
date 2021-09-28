@@ -11,9 +11,16 @@
     max-width: 450px;
 }
 
+.navigation__title {
+    font-size: 2.5rem;
+}
+
 .navigation__menu {
-    text-decoration: none;
     list-style: none;
+}
+
+.navigation__menu li a {
+    text-decoration: none;
 }
 
 .article__myPicture {
