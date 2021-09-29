@@ -5,11 +5,15 @@
 --celadon-blue: hsla(203, 39%, 44%, 1);
 --prussian-blue: hsla(215, 50%, 23%, 1); */
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
+
 *{
     margin:0;
     padding:0;
     background-color: hsla(215, 50%, 23%, 1);
     color: hsla(105, 55%, 96%, 1);
+    font-family: 'Fira Mono', monospace;
 }
 
 .container {
@@ -21,35 +25,68 @@
 }
 
 .navigation__title {
-    font-size: 2.5rem;
-    background-color: hsla(182, 43%, 76%, 1);
-    border-radius: 1rem;
+    font-size: 2rem;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    background-color: hsla(355, 78%, 56%, 1);   
 }
 
 .navigation__subtitle{
-    background-color: hsla(182, 43%, 76%, 1);
-    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: hsla(355, 78%, 56%, 1);
+    padding-bottom: .5rem;
 }
 
 .navigation__menu {
     list-style: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .navigation__menu li a {
     text-decoration: none;
+    line-height: 2rem;
+}
+
+.article__about-me {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    width: 80%;
+    background-color: hsla(203, 39%, 44%, 1);
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px hsla(105, 55%, 96%, 1);
 }
 
 .article__myPicture {
-    width: 90%;
+    width: 50%;
     border-radius: 3rem;
 }
 
 h4 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+
+.article__knowledge {
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+}
+
+.article__knowledge__logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin: 2rem 0rem;
+    
+}
+
 .fab {
-    font-size: 8rem;
+    font-size: 6rem;
 }
 
 .fa-html5 {
