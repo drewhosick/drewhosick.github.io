@@ -1,11 +1,20 @@
-
+/* CSS HSL */
+/* --imperial-red: hsla(355, 78%, 56%, 1);
+--honeydew: hsla(105, 55%, 96%, 1);
+--powder-blue: hsla(182, 43%, 76%, 1);
+--celadon-blue: hsla(203, 39%, 44%, 1);
+--prussian-blue: hsla(215, 50%, 23%, 1); */
 
 *{
     margin:0;
     padding:0;
+    background-color: hsla(215, 50%, 23%, 1);
+    color: hsla(105, 55%, 96%, 1);
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin: auto;
     max-width: 450px;
@@ -13,6 +22,13 @@
 
 .navigation__title {
     font-size: 2.5rem;
+    background-color: hsla(182, 43%, 76%, 1);
+    border-radius: 1rem;
+}
+
+.navigation__subtitle{
+    background-color: hsla(182, 43%, 76%, 1);
+    border-radius: 1rem;
 }
 
 .navigation__menu {
