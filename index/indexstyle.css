@@ -101,6 +101,12 @@ h1 > span {
 .project-image {
     max-width: 300px;
     margin-bottom: 1rem;
+    transition-duration: 700ms;
+}
+
+.project-image:hover {
+    transition-duration: 700ms;
+    box-shadow: 0 0 15px white;
 }
 
 .project-description {
@@ -113,9 +119,21 @@ h1 > span {
     margin: auto;
     max-width: 50%;
     margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+.profile-link {
+    font-size: 3rem;
+    padding: 0rem 1rem;
+    text-decoration: none;
+    color: #ffffffff;
+}
+
+.profile-link:hover {
+    font-size: 3.1rem;
+    transition-duration: 50ms;
 }
 
 @media screen and (max-width: 1000px) {
