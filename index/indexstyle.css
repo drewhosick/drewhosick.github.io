@@ -54,11 +54,14 @@ h1 > span {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    border-bottom: 10px solid;
+    border-image: linear-gradient(270deg, #007ea7ff 0%, #00171fff 90%) 1;
 }
 
 .title {
     margin-left: 3rem;
     margin-top: 0;
+    margin-bottom: 1rem;
     font-size: 4rem;
     vertical-align: 0px;
     color: #007ea7ff;
