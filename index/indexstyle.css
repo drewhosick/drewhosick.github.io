@@ -82,14 +82,15 @@ h1 > span {
     display: flex;
     width: 90%;
     margin:auto;
-    gap: 10rem;
+    column-gap: 10rem;
+    row-gap: 4rem;
     justify-content: center;
     margin-bottom: 2rem;
     flex-wrap: wrap;
 }
 
 .projects-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 200;
 }
 
@@ -100,7 +101,6 @@ h1 > span {
 }
 .project-image {
     max-width: 300px;
-    margin-bottom: 1rem;
     transition-duration: 700ms;
 }
 
@@ -109,13 +109,18 @@ h1 > span {
     box-shadow: 0 0 15px white;
 }
 
-.project-description {
+/* Not currently used but my re-add to describe projects below them */
+/* .project-description {
     text-decoration: none;
     max-width: 300px;
-}
+} */
 
+.about-me-title {
+    font-size: 2.5rem;
+    font-weight: 200;
+}
 .about-me {
-    text-align: center;
+    text-align: left;
     margin: auto;
     max-width: 50%;
     margin-top: 3rem;
