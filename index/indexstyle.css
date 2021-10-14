@@ -119,6 +119,8 @@ h1 > span {
 
 .project-description {
     max-width: 330px;
+    margin-left: 0;
+    margin-right: 0;
     font-size: 0.9rem;
     font-style: italic;
     font-weight: 300;
@@ -129,12 +131,6 @@ h1 > span {
     box-shadow: 0 0 15px white;
 }
 
-/* Not currently used but my re-add to describe projects below them */
-/* .project-description {
-    text-decoration: none;
-    max-width: 300px;
-} */
-
 .about-me-title {
     font-size: 2.2rem;
     font-weight: 200;
@@ -143,6 +139,7 @@ h1 > span {
 .title {
     margin-bottom: 3rem;
 }
+
 .about-me {
     text-align: left;
     margin: auto;
