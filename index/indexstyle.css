@@ -54,8 +54,14 @@ h1 > span {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-bottom: 10px solid;
+    height: 7rem;  
+    border-bottom: 5px solid;
     border-image: linear-gradient(270deg, #007ea7ff 0%, #00171fff 90%) 1;
+}
+
+.navbar-title {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
 }
 
 .title {
@@ -71,14 +77,16 @@ h1 > span {
 .navbar-nav {
     display: flex;
     margin-right: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 1rem;
+    margin-bottom: 0rem;
     font-weight: 100;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .navbar-menu {
     text-decoration: none;
+    margin-bottom: 0;
 }
 
 .projects {
@@ -122,6 +130,10 @@ h1 > span {
     font-size: 2.5rem;
     font-weight: 200;
 }
+
+.title {
+    margin-bottom: 3rem;
+}
 .about-me {
     text-align: left;
     margin: auto;
@@ -144,15 +156,26 @@ h1 > span {
     transition-duration: 50ms;
 }
 
+@media screen and (max-width: 1300px) {
+    .title {
+        font-size: 3rem;
+    }
+    .navbar-nav {
+        font-size: 1.1rem;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .navbar {
         flex-direction: column;
+        height: auto;
     }
     .navbar-nav {
         flex-direction: column;
         margin-right: auto;
         margin-left: auto;
         margin-top: -2rem;
+        margin-bottom: 1rem;
         gap: 1rem;
         font-size: 1.3rem;
 
