@@ -93,7 +93,7 @@ h1 > span {
     display: flex;
     width: 90%;
     margin:auto;
-    column-gap: 9rem;
+    column-gap: 10rem;
     row-gap: 4rem;
     justify-content: center;
     margin-bottom: 2rem;
