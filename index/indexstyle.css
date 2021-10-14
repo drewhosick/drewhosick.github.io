@@ -93,7 +93,7 @@ h1 > span {
     display: flex;
     width: 90%;
     margin:auto;
-    column-gap: 10rem;
+    column-gap: 8rem;
     row-gap: 4rem;
     justify-content: center;
     margin-bottom: 2rem;
@@ -103,6 +103,7 @@ h1 > span {
 .projects-title {
     font-size: 2.2rem;
     font-weight: 200;
+    margin: auto;
 }
 
 .project-title {
@@ -117,7 +118,7 @@ h1 > span {
 }
 
 .project-description {
-    max-width: 320px;
+    max-width: 330px;
     font-size: 0.9rem;
     font-style: italic;
     font-weight: 300;
