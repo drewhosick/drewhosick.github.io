@@ -42,6 +42,10 @@ h1 > span {
     font-size: 4rem;
 }
 
+h2 {
+    margin:auto;
+}
+
 .name {
     font-size: 8rem;
     margin-top: -10rem;
