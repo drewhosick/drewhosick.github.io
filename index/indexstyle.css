@@ -109,6 +109,7 @@ h1 > span {
     max-width: 300px;
     font-size: 1rem;
     font-weight: 300;
+    text-align: center;
 }
 .project-image {
     max-width: 300px;
@@ -116,8 +117,8 @@ h1 > span {
 }
 
 .project-description {
-    max-width: 300px;
-    font-size: 0.8rem;
+    max-width: 320px;
+    font-size: 0.9rem;
     font-style: italic;
     font-weight: 300;
 }
