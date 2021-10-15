@@ -57,6 +57,7 @@ h1 > span {
     height: 7rem;  
     border-bottom: 5px solid;
     border-image: linear-gradient(270deg, #007ea7ff 0%, #00171fff 90%) 1;
+    z-index: 2;
 }
 
 .navbar-title {
@@ -146,7 +147,8 @@ h1 > span {
     max-width: 50%;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 300;
     line-height: 2rem;
 }
 
@@ -160,6 +162,20 @@ h1 > span {
 .profile-link:hover {
     font-size: 3.1rem;
     transition-duration: 50ms;
+}
+
+.photos {
+    width: 50%;
+    max-height: 500px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.photos > img {
+    position: relative;
+    width: 100%;
+    top: -10px;
 }
 
 @media screen and (max-width: 1300px) {
@@ -209,5 +225,12 @@ h1 > span {
     .about-me {
         max-width: 80%;
         font-size: 1.3rem;
+    }
+
+    .photos {
+        width: 80%;
+    }
+    .photos > img {
+        max-width: 100%;
     }
 }
