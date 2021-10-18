@@ -2,6 +2,7 @@ const carousel = document.querySelector('.carousel');
 const carouselPhotos = document.querySelectorAll('.carousel__photo');
 const prevBtn = document.querySelector('#prevBtn');
 const nextBtn = document.querySelector('#nextBtn');
+const navBar = document.querySelector('#navbar');
 
 let counter = 0;
 prevBtn.style.visibility = "hidden";
@@ -45,4 +46,17 @@ window.addEventListener('resize', () => {
     setTimeout(() => {
         carousel.style.transition = "transform 0.6s ease-in-out";    
     }, 100);
-})
+});
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    navBar.style.top = "0";
+  } else {
+    navBar.style.top = "-7rem";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+navBar.addEventListener('s')
