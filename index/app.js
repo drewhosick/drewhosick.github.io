@@ -56,7 +56,7 @@ console.log(navBar);
   if (prevScrollpos > currentScrollPos) {
     navBar.style.top = "0";
   } else {
-    navBar.style.top = menuHeight;
+    navBar.style.top = `-${menuHeight}`;
   }
   prevScrollpos = currentScrollPos;
 }
