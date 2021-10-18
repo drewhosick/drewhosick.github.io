@@ -48,9 +48,11 @@ window.addEventListener('resize', () => {
     }, 100);
 });
 
-var prevScrollpos = window.pageYOffset;
+let prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
+  let currentScrollPos = window.pageYOffset;
+//   let menuHeight =
+console.log(navBar);
   if (prevScrollpos > currentScrollPos) {
     navBar.style.top = "0";
   } else {
