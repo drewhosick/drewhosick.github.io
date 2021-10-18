@@ -55,6 +55,7 @@ h1 > span {
 
 .navbar {
     position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -62,7 +63,7 @@ h1 > span {
     height: 7rem;  
     border-bottom: 5px solid;
     border-image: linear-gradient(270deg, #007ea7ff 0%, #00171fff 90%) 1;
-    z-index: 2;
+    z-index: 15;
 }
 
 .navbar-title {
@@ -163,49 +164,66 @@ h1 > span {
     padding: 0rem 1rem;
     text-decoration: none;
     color: #ffffffff;
+    margin-bottom: 2rem;
 }
 
 .profile-link:hover {
     font-size: 3.1rem;
     transition-duration: 50ms;
+    color: #00a7e1ff;
 }
 
-.carousel-container {
-    width: 1000px;
-    margin: auto;
+.copyright {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.carousel-wrapper {
     overflow: hidden;
-    position: relative;   
+    width: 70%;
+    margin: auto;
+    position: relative;
+    border: 5px solid whitesmoke;
+    margin-bottom: 2rem;
 }
 
-.carousel-slide {
+.carousel {
     display: flex;
     width: 100%;
-    height:562.5px;
+    transition: transform 0.6s ease-in-out;
 }
 
-#prevBtn{
+.carousel__photo {
+    width: 100%;
+}
+
+.carousel__button--prev {
     position: absolute;
-    top: 50%;
     z-index: 10;
+    top: 50%;
     left: 5%;
     font-size: 2rem;
+    opacity: .5;
     color: white;
-    opacity: 0.5;
-    cursor: pointer;
+    text-shadow: 2px 2px 5px black;
 }
-#nextBtn{
+
+.carousel__button--next {
     position: absolute;
-    top: 50%;
     z-index: 10;
+    top: 50%;
     right: 5%;
     font-size: 2rem;
+    opacity: .5;
     color: white;
-    opacity: 0.5;
-    cursor: pointer;
+    text-shadow: 2px 2px 5px black;
 }
 
-
-
+.reach-me-title {
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
 
 @media screen and (max-width: 1300px) {
     .title {
@@ -213,17 +231,6 @@ h1 > span {
     }
     .navbar-nav {
         font-size: 1.1rem;
-    }
-    .carousel-container {
-        width: 750px;
-        margin: auto;
-        overflow: hidden;
-        position: relative;   
-    }
-    .carousel-slide {
-        display: flex;
-        width: 100%;
-        height:421.875px;
     }
 }
 
@@ -266,16 +273,7 @@ h1 > span {
         max-width: 80%;
         font-size: 1.3rem;
     }
-
-    .carousel-container {
-        width: 500px;
-        margin: auto;
-        overflow: hidden;
-        position: relative;   
-    }
-    .carousel-slide {
-        display: flex;
-        width: 100%;
-        height:281.25px;
+    .carousel-wrapper {
+        width: 90%;
     }
 }

@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index/indexstyle.css">
-    <title>Drew Hosick</title>
+    <title>Drew Hosick Portfolio</title>
     <script src="https://kit.fontawesome.com/096272b72a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -53,28 +53,27 @@
             <p class="about-me" id="photography">One of the things I enjoy outside of coding is photography.  It gives me another opportunity to create.</p>
             <p class="about-me">I've been taking photos as a hobby since 2007.  I mostly like to take landscape, aviation and sports/action photography.  Here's some of my work below.</p>
         </section>
-        <section id="photos" class="carousel-container">
-            <i class="fas fa-arrow-left" id="prevBtn"></i>
-            <i class="fas fa-arrow-right" id="nextBtn"></i>
-            <div class="carousel-slide">
-                <img src="/photography/photos/carousel9.png" id="lastClone">
-                <img src="/photography/photos/carousel1.png">
-                <img src="/photography/photos/carousel2.png">
-                <img src="/photography/photos/carousel3.png">
-                <img src="/photography/photos/carousel4.png">
-                <img src="/photography/photos/carousel5.png">
-                <img src="/photography/photos/carousel6.png">
-                <img src="/photography/photos/carousel7.png">
-                <img src="/photography/photos/carousel8.png">
-                <img src="/photography/photos/carousel9.png">
-                <img src="/photography/photos/carousel1.png" id="firstClone">
+        <section class="carousel-wrapper">
+            <i class="fas fa-arrow-left carousel__button--prev" id="prevBtn"></i>
+            <i class="fas fa-arrow-right carousel__button--next" id="nextBtn"></i>
+            <div class="carousel">
+                <img class="carousel__photo" src="/photography/photos/carousel1.png">
+                <img class="carousel__photo" src="/photography/photos/carousel2.png">
+                <img class="carousel__photo" src="/photography/photos/carousel3.png">
+                <img class="carousel__photo" src="/photography/photos/carousel4.png">
+                <img class="carousel__photo" src="/photography/photos/carousel5.png">
+                <img class="carousel__photo" src="/photography/photos/carousel6.png">
+                <img class="carousel__photo" src="/photography/photos/carousel7.png">
+                <img class="carousel__photo" src="/photography/photos/carousel8.png">
+                <img class="carousel__photo" src="/photography/photos/carousel9.png">
             </div>
         </section>
         <section id="reach-me" class="reach-me">
+            <h2 class="reach-me-title">Reach Me</h2>
             <a href="https://github.com/drewhosick" id="profile-link" class="profile-link fab fa-github"></a>
             <a href="https://www.twitter.com/drewhosick" id="profile-link" class="profile-link fab fa-twitter"></a>
             <a href="https://www.linkedin.com/in/drewhosick" id="profile-link" class="profile-link fab fa-linkedin"></a>
-
+            <p class="copyright">Copyright 2021 Drew Hosick</p>
         </section>
         <script src="index/app.js"></script>
     </main>
