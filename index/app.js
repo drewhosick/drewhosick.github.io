@@ -58,5 +58,3 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
-navBar.addEventListener('s')
