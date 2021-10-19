@@ -49,14 +49,14 @@ window.addEventListener('resize', () => {
 });
 
 let prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+
+window.addEventListener('scroll', () => {
     let currentScrollPos = window.pageYOffset;
     let menuHeight = navBar.clientHeight;
-console.log(navBar);
   if (prevScrollpos > currentScrollPos) {
     navBar.style.top = "0";
   } else {
     navBar.style.top = `-${menuHeight}`;
   }
   prevScrollpos = currentScrollPos;
-}
+});
